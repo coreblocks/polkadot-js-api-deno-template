@@ -5,13 +5,10 @@
 
 Deno template for Polkadot JS API
 
-1. Install Deno
-```
-https://docs.deno.com/runtime/manual/getting_started/installation
+1. [Install Deno](https://docs.deno.com/runtime/manual/getting_started/installation)
 
-```
 
-2. Run
+2. Run the deno polkadot.js template
 ```
 deno run -A index.ts 
 ```
@@ -47,6 +44,7 @@ Main Documentation Page: Visit the [Deno Polkadot.js Package page](https://deno.
 
 #### Staying Updated:
 Versioning: The package version is specified in the URL (e.g., 0.2.45). To view documentation for a different version, adjust the version number in the URL accordingly.
+
 
 
 ### Migrate from Node.js to Deno
