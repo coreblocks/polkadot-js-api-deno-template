@@ -10,3 +10,6 @@ https://docs.deno.com/runtime/manual/getting_started/installation
 ```
 deno run -A index.ts 
 ```
+
+
+### Why Deno?
