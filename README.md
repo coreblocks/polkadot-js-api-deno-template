@@ -11,7 +11,7 @@ Deno template for Polkadot JS API
 - Deno polkadot.js standalone template
 
 ```
-deno run -A deno run -A examples/listen-new-blocks.ts 
+ deno run -A examples/listen-new-blocks.ts 
 ```
 
 -  template with deno.json configuration
