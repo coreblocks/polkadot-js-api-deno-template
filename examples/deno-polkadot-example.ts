@@ -1,7 +1,10 @@
-import { ApiPromise, WsProvider } from 'polkadot/api/mod.ts';
-import { stringToU8a } from 'polkadot/util/mod.ts';
-import { Balance } from 'polkadot/types/interfaces/index.ts';
-import { load } from 'std/dotenv/mod.ts';
+import {
+	ApiPromise,
+	WsProvider,
+} from 'https://deno.land/x/polkadot@0.2.45/api/mod.ts';
+import { stringToU8a } from 'https://deno.land/x/polkadot@0.2.45/util/mod.ts';
+import { Balance } from 'https://deno.land/x/polkadot@0.2.45/types/interfaces/index.ts';
+import { load } from 'https://deno.land/std@0.211.0/dotenv/mod.ts';
 
 async function main() {
 	console.log(await load({ export: true }));
