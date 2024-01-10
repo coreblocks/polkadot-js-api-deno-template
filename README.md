@@ -6,11 +6,20 @@ Deno template for Polkadot JS API
 
 1. [Install Deno](https://docs.deno.com/runtime/manual/getting_started/installation)
 
-2. Run the deno polkadot.js template
+2. Run the codes
+
+- Deno polkadot.js standalone template
 
 ```
-deno run -A deno-polkadot-example.tss
+deno run -A deno run -A examples/listen-new-blocks.ts 
 ```
+
+-  template with deno.json configuration
+```
+deno task start
+```
+
+Read more about [Deno Configuration File](#deno-configuration)
 
 This starter template leverages Deno's cutting-edge features for a seamless and secure development experience with the Polkadot.js API.
 
